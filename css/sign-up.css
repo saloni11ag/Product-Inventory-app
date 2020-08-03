@@ -10,9 +10,9 @@
     width: 32%;
     /* height: auto; */
     height: 450px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     margin-top: 80px;
-    margin-left: 420px;
+    /* margin-left: 420px; */
     border: 1px solid black;
     padding: 20px;
     background-color: #f2f2f2;;

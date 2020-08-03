@@ -10,9 +10,9 @@
     width: 25%;
     height: auto;
     /* height: 300px; */
-    /* margin: 0 auto; */
+    margin: 0 auto;
     margin-top: 150px;
-    margin-left: 480px;
+    /* margin-left: 480px; */
     border: 1px solid black;
     padding: 20px;
     background-color: #f2f2f2;;
