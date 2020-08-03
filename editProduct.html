@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/editProduct.css">
+    <title>Inventory App</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <ul id="navbar">
+                <li class="navbar-items"><a class="navbar-items-links" href="/home.html">HOME</a></li>
+                <li class="navbar-items"><a class="navbar-items-links" href="/dashboard.html">DASHBOARD</a></li>
+                <li class="navbar-items" style="float:right; border-left:1px solid #bbb;"><a class="navbar-items-links"
+                        href="/index.html">LOGOUT</a></li>
+                <li class="navbar-items" style="float:right; border-left:1px solid #bbb;"><a class="navbar-items-links"
+                        href="#profile">PROFILE</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <header id="editProduct-header">EDIT PRODUCT</header>
+            <form action="">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="categoryname">Category Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="categoryname" id="categoryname" placeholder="Enetr Category Name...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="productcode">Product Code:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="productcode" name="productcode" placeholder="Enter Product Code..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="productname">Product Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="productname" name="productname" placeholder="Enter Product Name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="productquantity">Quantity</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="productquantity" name="productquantity"
+                            placeholder="Enter Product Quantity..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="productprice">Price</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="productprice" name="productprice" placeholder="Enter Product Price..">
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

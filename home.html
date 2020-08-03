@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Inventory App</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <ul id="navbar">
+                <li class="navbar-items"><a class="navbar-items-links" href="#"
+                        style="background-color: slategray;">HOME</a></li>
+                <li class="navbar-items"><a class="navbar-items-links" href="/dashboard.html">DASHBOARD</a></li>
+                <li class="navbar-items" style="float:right; border-left:1px solid #bbb;"><a class="navbar-items-links"
+                        href="/index.html">LOGOUT</a></li>
+                <li class="navbar-items" style="float:right; border-left:1px solid #bbb;"><a class="navbar-items-links"
+                        href="#profile">PROFILE</a></li>
+            </ul>
+        </header>
+        <div class="sidenav">
+            <a href="#">Categories</a>
+            <form class="filter-checkbox">
+                <input type="checkbox" id="Electronics" name="Electronics" value="Electronics">
+                <label for="Electronics"> Electronics</label><br>
+                <input type="checkbox" id="Clothing" name="Clothing" value="Clothing">
+                <label for="Clothing"> Clothing</label><br>
+            </form>
+            <a href="#">Price</a>
+            <form class="filter-checkbox">
+                <input type="checkbox" id="price1" name="price1" value="price1">
+                <label for="price1"> Rs. 500 to 1000</label><br>
+                <input type="checkbox" id="price1" name="price1" value="price1">
+                <label for="price1"> Rs. 1000 to 2000</label><br>
+            </form>
+        </div>
+
+        <div class="home-page">
+            <!-- <div class="search-container">
+                <form>
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div> -->
+            <div>
+                <button class="button button1">Add Product</button>
+            </div>
+            <div>
+                <div class="card">
+                    <img src="images/product-ex.jfif" alt="product-img" width="100%">
+                    <div class="container">
+                        <h4><b>Product Name</b></h4>
+                        <p>Price: </p>
+                        <p>Quantity</p>
+                        <button class="button button1">Edit</button>
+                        <button class="button button2">Delete</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/product-ex.jfif" alt="product-img" width="100%">
+                    <div class="container">
+                        <h4><b>Product Name</b></h4>
+                        <p>Price: </p>
+                        <p>Quantity</p>
+                        <button class="button button1">Edit</button>
+                        <button class="button button2">Delete</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/product-ex.jfif" alt="product-img" width="100%">
+                    <div class="container">
+                        <h4><b>Product Name</b></h4>
+                        <p>Price: </p>
+                        <p>Quantity</p>
+                        <button class="button button1">Edit</button>
+                        <button class="button button2">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
